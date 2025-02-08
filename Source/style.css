@@ -1,0 +1,124 @@
+body {
+    background-image: url("Image/Background-Image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: #ffffff84;
+    padding: 30px 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+}
+
+h2 {
+    color: #e63946;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #457b9d;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#yes {
+    background-color: #28a745;
+}
+
+#no {
+    background-color: #dc3545;
+}
+
+input[type="submit"]:hover {
+    opacity: 0.9;
+}
+
+input[type="submit"]:active {
+    transform: scale(0.95);
+}
+
+form {
+    position: relative;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+form:before {
+    content: "";
+    position: absolute;
+    top: -80px;
+    right: -80px;
+    width: 160px;
+    height: 160px;
+    background-color: #ff6f61;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+form:after {
+    content: "";
+    position: absolute;
+    bottom: -60px;
+    left: -60px;
+    width: 120px;
+    height: 120px;
+    background-color: #48cae4;
+    border-radius: 50%;
+    z-index: -1;
+}
+.emoji {
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    visibility: hidden;
+}
+
+#dev {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    color: #4d4c4c;
+    font-size: 16px;
+    display: inline;
+    margin-top: 470px;
+    
+
+}
+span{
+    color: #812828;
+    font-size: 17px;
+}
+
+span:hover{
+    color: #114b6e;
+}
+
+.emoji-heart {
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+}
